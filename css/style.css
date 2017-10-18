@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+#div1 {
+    width: 800px;
+    height: 600px;
+    overflow: hidden;
+    background: black;
+    margin: 20px auto;
+    position: relative;
+}
+
+#gameName {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#gameAuthor {
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 578px;
+    left: 170px;
+}
+
+#gameBtn {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px #FFFFFF solid;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 200px auto auto;
+}
+
+#score {
+    color: #FFFFFF;
+}
+
+#blood {
+    color: #FFFFFF;
+}
+
+#bee {
+    position: relative;
+}
+
+.enemy1 {
+    width: 40px;
+    height: 28px;
+    background: url(../images/mf1.png) no-repeat;
+    float: left;
+}
+
+.enemy2 {
+    width: 40px;
+    height: 28px;
+    background: url(../images/mf2.png) no-repeat;
+    float: left;
+}
+
+.enemy3 {
+    width: 40px;
+    height: 28px;
+    background: url(../images/mf3.png) no-repeat;
+    float: left;
+}
+
+.air1 {
+    width: 46px;
+    height: 60px;
+    background: url(../images/fj.png) no-repeat;
+    position: absolute;
+}
+
+.bullet {
+    width: 1px;
+    overflow: hidden;
+    height: 10px;
+    background: white;
+    position: absolute;
+}
